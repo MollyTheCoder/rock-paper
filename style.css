@@ -1,0 +1,263 @@
+
+body {
+	background-color: #E1F8F4;
+}
+
+#body {
+	border: 5px solid white;
+	display: block;
+	background-color:#EDF8F4;
+	width: 70%;
+	border-radius: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+div {
+		width: 80%;
+		margin: auto;
+}
+
+h1 {
+	font-family: 'Anton';
+	font-size: 48px;
+	font-weight: bold;
+	color: #277552;
+	padding: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+h2 {
+	font-family: 'Lato';
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #6D3882;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Lato';
+	font-size: 30px;
+	/*text-transform: uppercase;*/
+	color: #6D3882;
+	text-align: center;	
+}
+
+h4 {
+	font-family: 'Lato';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #C1A237;
+	font-weight: bold;
+	padding: 10px 10px 0 20px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+p {
+	font-family: 'Lato';
+	font-size: 14px;
+	color: #C1A237;
+	padding: 20px;
+
+}
+/*--- JS ELEMENTS ---*/
+
+#myplayer-span, 
+#avatar-span,
+#myweapon-span {
+	display: inline-block;	
+}
+
+#avatar-span {
+	display: inline-block;
+	float: right;	
+}
+
+#final-players img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#game-results img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+button {
+	background-color: #2DC17F;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 12px;
+	margin: 50px;
+	display: block;
+	width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    cursor: pointer;
+}
+
+
+
+
+/*--- FLEXBOX ---*/
+
+
+#tools, #charac {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	cursor: pointer;	
+}
+
+
+
+/*--- MEDIA QUERIES ---*/
+
+
+@media (min-width: 1025px) {
+
+#body {
+	width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+		
+	
+button {	
+	font-size: 28px;
+	padding: 20px 40px;
+	margin: 50px;
+	width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;   
+}
+
+
+.character {
+	width: 191px;
+	height: 256px;
+}
+
+.tool {
+	width: 200px;
+	height: 150px;
+}
+
+	
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1025px)  {
+
+#body {
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {	
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 30px;
+	width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;   
+}
+
+div {
+	max-width: 900px;
+}
+	
+.character {
+	width: 143px;
+	height: 192px;
+}
+
+.tool {
+	width: 150px;
+	height: 112px;
+}
+
+h1 {
+	font-size: 36px;
+	padding: 20px;	
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+}
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+#body {
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {	
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 30px;
+	width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.character {
+	width: 95px;
+	height: 128px;
+}
+
+.tool {
+	width: 100px;
+	height: 75px;
+}
+
+div {
+
+	width: 80%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+button {
+	font-size: 10px;
+
+}
+
+h1 {
+	font-size: 30px;
+	padding: 20px;
+}
+
+h2 {
+
+	font-size: 26px;
+}
+
+h3 {
+
+	font-size: 20px;
+}
+}
